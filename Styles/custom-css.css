@@ -1,0 +1,28 @@
+a {
+  text-decoration: none !important;
+}
+.bg-phone {
+  background-image: url("../Images/Image-Phone.svg");
+  height: 585px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.form-inputs input {
+  background-color: #fafafa;
+  color: #737373;
+}
+.form-inputs input::placeholder {
+  font-size: 0.7rem;
+}
+.line {
+  height: 1px;
+  background-color: rgb(160, 157, 157);
+}
+input:focus {
+  box-shadow: none !important;
+  border: 1px solid #ced4da !important;
+}
+.footer-menu-item__link {
+  color: #5a5c5e;
+  font-size: 0.9rem;
+}
